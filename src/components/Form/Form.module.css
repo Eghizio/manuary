@@ -1,0 +1,29 @@
+.form {
+}
+
+.field {
+	border: none;
+}
+
+.label {
+}
+
+.input {
+	border: none;
+	background-color: #ffd581;
+	padding: 0.4rem;
+	border-radius: 8px;
+	width: 100%;
+}
+.input-text {
+}
+.input-number {
+}
+.input-date {
+}
+.input-area {
+	resize: vertical;
+}
+
+.submit-btn {
+}

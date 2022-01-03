@@ -1,0 +1,42 @@
+.card {
+	background-color: var(--color-creamy);
+	margin: 0.5rem;
+	padding: 0.25rem;
+	border-radius: 0.5rem;
+}
+
+.date {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	font-size: smaller;
+	font-weight: lighter;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.name {
+	margin: 0;
+}
+
+.card-body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pill {
+	background-color: var(--color-violet);
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+	font-size: small;
+}
+
+.note-btn {
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+	background-color: var(--color-orange);
+	padding-left: 8px;
+	padding-top: 4px;
+}

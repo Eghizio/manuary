@@ -1,0 +1,38 @@
+/* move z-index to global css vars */
+
+.backdrop {
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+	z-index: 3;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	padding: 0.5rem 1rem 1rem 1rem;
+	background-color: palegoldenrod;
+	border-radius: 0.25rem;
+}
+
+.modal-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem 0;
+}
+
+.modal-title {
+	margin: 0;
+}
+
+.modal-close-btn {
+	background: none;
+	border: none;
+}

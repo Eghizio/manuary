@@ -1,3 +1,17 @@
+:root {
+	--color-plum: #563761;
+	--color-wine: #a7425c;
+	--color-orange: #f3825f;
+	--color-sunny: #ffe26f;
+	--color-sandy: #f4f1ae;
+	--color-hot-orange: #f85a16;
+	--color-hot-pink: #ca005e;
+	--color-hot-blue: #6927ff;
+	--color-light-blue: #837dff;
+	--color-violet: #bf81ff;
+	--color-creamy: #ffd581;
+}
+
 html,
 body {
 	padding: 0;

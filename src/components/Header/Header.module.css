@@ -1,0 +1,36 @@
+.container {
+	--height: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	height: var(--height);
+	display: flex;
+	background-color: var(--color-hot-blue);
+	color: var(--color-sunny);
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem 0.5rem 0.5rem;
+}
+
+.title {
+	margin: 0;
+}
+
+.add-set-btn {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: none;
+	background-color: orange;
+	padding: 0.5rem;
+}
+
+.spacer {
+	height: var(--height);
+}
